@@ -1,0 +1,15 @@
+/* Sass file that assigns: Margin mixin */
+@mixin my-margins ($margins) {
+    margin-left: $margins;
+    margin-right: $margins;
+}
+
+body {
+    @include my-margins(10px);
+}
+
+div {
+    @include my-margins(15px);
+}
+
+// To invoke a mixin use @include and the name of the mixin to invoke
