@@ -671,7 +671,7 @@ ul.row {
     margin: 0;
   }
 
-  .fieldset {
+  fieldset {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -679,7 +679,7 @@ ul.row {
     padding: 0 0 2rem;
   }
 
-  .label {
+  label {
     cursor: pointer;
     display: block;
     white-space: nowrap;
